@@ -12,7 +12,7 @@ int main() {
     cout<<"Введите угол при большем основании(в градусах):"<<endl;
     cin>>c;
     area = (b-a)/2*tan(c)*(a+b)/2;
-    cout<<area<<endl;
+    cout<<"Площадь :"<<area<<endl;
 
     return 0;
 }
