@@ -53,9 +53,9 @@ short method_b(short num) {
     return stoi(tempStr);
 }
 
-int main() {
+int main(int argc, char *argv[]) {
     short num, a, b, c, d1, d2;
-    cin >> num;
+    num = atoi(argv[1]);
     if (999 < num && num < 10000) {
         a = method_a(num);
 
